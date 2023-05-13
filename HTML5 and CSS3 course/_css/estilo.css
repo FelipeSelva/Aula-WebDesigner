@@ -47,6 +47,9 @@ figure.foto-legenda:hover figcaption {
 }
 
 /*Formatação do menu*/
+nav#Menu li:hover {
+    background-color: #606060;
+}
 nav#Menu h1 {
     display: none;
 }
@@ -68,4 +71,14 @@ nav#Menu li {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+
+}
+nav#Menu a {
+    color:black;
+    text-decoration: none;
+}
+
+nav#Menu a:hover {
+color: white;
 }
